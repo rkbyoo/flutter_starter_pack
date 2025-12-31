@@ -18,7 +18,15 @@ class NewApp extends StatelessWidget {
           actions: [Icon(Icons.home), Icon(Icons.heart_broken)],
           leading: CircleAvatar(child: Text("R")),
         ),
-        body: Text("Rakib"),
+        body: Text(
+          "Rakib Hussain",
+          style: TextStyle(
+            color: Colors.pink,
+            fontSize: 50,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2,
+          ),
+        ),
       ),
     );
   }
